@@ -94,6 +94,7 @@ def main():
         model = RedeNeualConvolucional().to(device)
     elif args.type == 0:
         model = RedeTotalmenteConectada().to(device)
+
     else:
         print('Tipo de modelo indefinido')
         return
