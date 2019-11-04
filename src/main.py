@@ -90,7 +90,7 @@ def main():
                        ])),
         batch_size=args.test_batch_size, shuffle=True, **kwargs)
 
-    if agrs.type == 1:
+    if args.type == 1:
         model = cnn().to(device)
     elif args.type == 0:
         model = fc().to(device)

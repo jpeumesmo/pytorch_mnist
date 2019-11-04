@@ -8,7 +8,7 @@ class RedeNeualConvolucional(torch.nn.Module):
         super().__init__()
         self.numero_classes = 10
 
-        self.layers{
+        self.layers = {
             'conv1': torch.nn.Conv2d(1,20,),
             'conv2': torch.nn.Conv2d(20, 50, 5, 1),
             'fc1': torch.nn.Linear(4*4*50, 500),
