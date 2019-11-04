@@ -91,9 +91,9 @@ def main():
         batch_size=args.test_batch_size, shuffle=True, **kwargs)
 
     if args.type == 1:
-        model = cnn().to(device)
+        model = RedeNeualConvolucional().to(device)
     elif args.type == 0:
-        model = fc().to(device)
+        model = RedeTotalmenteConectada().to(device)
     else:
         print('Tipo de modelo indefinido')
         return
