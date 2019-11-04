@@ -18,14 +18,14 @@ Podemos olhar uma imagem individualmente do conjunto de dados e teremos algo com
 <center><img src="assets/mnist_unique.png" ...></center>
 <center>Uma instância do MNIST</center>
 
-Para utilizar os dados do MNIST iremos reutilizar um dos DataLoaders implementados nas aulas anteriores. eles estão disponíveis no arquivo [data.py](github.com/jpeumesmo/pytorch_mnist/src/data.py)
+Para utilizar os dados do MNIST iremos reutilizar um dos DataLoaders implementados nas aulas anteriores. eles estão disponíveis no arquivo [data.py](src/data.py)
 
-Iremos implementar duas redes neurais para trabalhar em cima do MNIST. A primeira será uma rede neural normal, apenas com camadas totalmente conectadas (_fully connected_), ela seguirá o modelo ilustrado na imagem abaixo. Para ver a implementação você pode dar uma olhada no arquivo [fc.py](github.com/jpeumesmo/pytorch_mnist/src/fc.py)
+Iremos implementar duas redes neurais para trabalhar em cima do MNIST. A primeira será uma rede neural normal, apenas com camadas totalmente conectadas (_fully connected_), ela seguirá o modelo ilustrado na imagem abaixo. Para ver a implementação você pode dar uma olhada no arquivo [fc.py](src/fc.py)
 
 <center><img src="assets/rede_1.png" ...></center>
 <center>Rede neural totalmente conectada que iremos implementar</center>
 
-Os resultados obtidos podem ser vistos no jupyter notebook [resultados.ipynb](github.com/jpeumesmo/pytorch_mnist/src/resultados.ipynb)
+Os resultados obtidos podem ser vistos no jupyter notebook [resultados.ipynb](src/resultados.ipynb)
 
 Bom agora iremos implementar um modelo para trabalhar no mesmo MNIST utilizando agora redes neurais convolucionais que mostram seu pontencial para trabalhar em imagens. Iremos implementar a rede ilustrada na imagem abaixo.
 
@@ -33,4 +33,4 @@ Bom agora iremos implementar um modelo para trabalhar no mesmo MNIST utilizando 
 <center>Rede neural convolucional iremos implementar. <a href="http://parse.ele.tue.nl/education/cluster2
 ">Fonte</a></center>
 
-Novamente os resultados podem ser observados no jupyter notebook [resultados.ipynb](github.com/jpeumesmo/pytorch_mnist/src/resultados.ipynb)
+Novamente os resultados podem ser observados no jupyter notebook [resultados.ipynb](src/resultados.ipynb)
