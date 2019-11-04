@@ -16,4 +16,4 @@ class RedeTotalmenteConectada(torch.nn.Module):
     def forward(self,x):
         first_layer = self.activation(self.layer_1(x))
         second_layer = self.activation(self.layer_2(first_layer))
-        return second_layer
+        return torch.nn.functional.log_softmax(second_layer, dim=1)
