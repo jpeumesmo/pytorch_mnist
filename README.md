@@ -27,7 +27,7 @@ Iremos implementar duas redes neurais para trabalhar em cima do MNIST. A primeir
 
 Os resultados obtidos podem ser vistos no jupyter notebook [resultados.ipynb](src/resultados.ipynb)
 
-Bom agora iremos implementar um modelo para trabalhar no mesmo MNIST utilizando agora redes neurais convolucionais que mostram seu pontencial para trabalhar em imagens. Iremos implementar a rede ilustrada na imagem abaixo.
+Bom agora iremos implementar um modelo para trabalhar no mesmo MNIST utilizando agora redes neurais convolucionais que mostram seu pontencial para trabalhar em imagens. Iremos implementar a rede ilustrada na imagem abaixo. Para ver a implementação você pode estudar o código no arquivo [cnn.py](src/cnn.py)
 
 <center><img src="assets/cnn.jpg" ...></center>
 <center>Rede neural convolucional iremos implementar. <a href="http://parse.ele.tue.nl/education/cluster2
