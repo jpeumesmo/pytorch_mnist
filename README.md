@@ -18,7 +18,17 @@ Podemos olhar uma imagem individualmente do conjunto de dados e teremos algo com
 <center><img src="assets/mnist_unique.png" ...></center>
 <center>Uma instância do MNIST</center>
 
-Para utilizar os dados do MNIST iremos reutilizar um dos DataLoaders implementados nas aulas anteriores. Eles estão disponíveis no arquivo [data_mnist.py](src/data.py) e [main.py](src/main.py). Utlizaremos o dataloader que realizará o _download_ dos dados automaticamente, esse dataloader está no arquivo [main.py](src/main.py).
+Para utilizar os dados do MNIST iremos reutilizar um dos DataLoaders implementados nas aulas anteriores. Eles estão disponíveis no arquivo [data_mnist.py](src/data.py) e [main.py](src/main.py). 
+
+Ao executar o comando: 
+```python
+ main.py --epochs 10 --summary ./output 
+```  
+o dataloader realizará o _download_ dos dados automaticamente e vai começar o treinamento ([main.py](src/main.py)). Caso você tenha dúvidas sobre o funcionamento do código você pode executar o comando:
+```python
+python main.py --help
+```
+Esse comando irá abrir um _help_ sobre os parâmetros do código e sobre seu funcionamento no geral.
 
 Iremos implementar duas redes neurais para trabalhar em cima do MNIST. A primeira será uma rede neural normal, apenas com camadas totalmente conectadas (_fully connected_), ela seguirá o modelo ilustrado na imagem abaixo. Para ver a implementação você pode dar uma olhada no arquivo [fc.py](src/fc.py)
 
